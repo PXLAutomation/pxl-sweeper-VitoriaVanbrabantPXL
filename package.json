@@ -1,0 +1,13 @@
+{
+  "name": "pxl-sweeper-VitoriaVanbrabantPXL",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "lint": "echo \"lint not configured yet\" && exit 0",
+    "typecheck": "echo \"typecheck not configured yet\" && exit 0",
+    "build": "echo \"build not configured yet\" && exit 0",
+    "start": "echo \"start not configured yet\" && exit 0"
+  }
+}
