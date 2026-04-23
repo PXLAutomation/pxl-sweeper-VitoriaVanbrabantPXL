@@ -15,6 +15,7 @@ Authoritative project files:
 - `IMPLEMENTATION_PLAN.md`
 - `TODO.md`
 - `DONE.md`
+- `GEMINI.md`
 
 Project rules:
 
@@ -29,6 +30,39 @@ Project rules:
 - For narrow tasks, pass the exact authoritative files in the prompt instead of retyping context.
 - Ask before making a large refactor, changing the directory structure, or removing tests.
 - Before moving work to `DONE.md`, review the diff, run the required checks, and update docs if the change affected scope or structure.
+
+## Phase 1 Baseline Context
+
+- **Project Type:** Browser SPA (static-site JavaScript)
+- **Goal:** Deliver a stable, playable Minesweeper experience with maintainable code and tests.
+- **Constraints:**
+  - Single-page app
+  - No backend (unless explicitly justified)
+  - Plain JavaScript static-site workflow compatibility
+- **Deployment Target:** Local-first static hosting (**assumed until confirmed**)
+- **Risk Tolerance:** Medium (**assumed until confirmed**)
+
+### Assumed until confirmed
+- Final product/assignment scope details
+- Deployment target details beyond local-first
+- Official risk tolerance from reviewer/instructor
+
+### Open Questions
+- Confirm exact project type/runtime constraints beyond browser SPA baseline.
+- Confirm exact in-scope feature set from assignment.
+- Confirm deployment target (local-only vs hosted).
+- Confirm required review cadence and risk policy.
+
+## Command Baseline
+
+| Capability | Command | Baseline Result | Notes |
+|---|---|---|---|
+| install | `npm install` | Not yet executed in this session | Run from repo root |
+| lint | `npm run lint` | Not yet executed in this session | Blocker if script missing |
+| typecheck | `npm run typecheck` | Not yet executed in this session | Optional if not configured |
+| test | `npm run test` | Not yet executed in this session | Required by setup requirements |
+| build | `npm run build` | Not yet executed in this session | Blocker if script missing |
+| run | `npm run start` (or project-specific) | Not yet executed in this session | Confirm actual script in `package.json` |
 
 ## 1. Think Before Coding
 
